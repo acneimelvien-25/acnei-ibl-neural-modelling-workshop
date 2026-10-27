@@ -1,14 +1,26 @@
 # ACNEI-IBL Neural Modelling Workshop
 
-This repository is a collaborative workspace for the ACNEI-IBL Neural Modelling Workshop. It is designed for 5 project teams to work together on separate tasks, share results, and upload their modelling work in a single central place.
+A collaborative GitHub workspace for the ACNEI-IBL Neural Modelling Workshop, designed to support five different project teams working on distinct modelling tasks while sharing one repository for version control, collaboration, and file uploads.
 
-## Goals
+## Workshop purpose
 
-- Support 5 different project teams
-- Keep each team's work organised in its own folder
-- Encourage collaborative development using Git and GitHub
-- Allow teams to upload notebooks, scripts, reports, and results
-- Make it easy to review, merge, and discuss work between teams
+This repository provides a structured environment where students or research teams can:
+
+- work independently within their own team folder
+- collaborate through GitHub pull requests and code review
+- upload notebooks, scripts, datasets, reports, and results
+- share progress across all five project teams in one central location
+- maintain a clear and reproducible project history
+
+## Overview of the five teams
+
+Each team works on a different project or analytical track within the workshop. The repository is structured so that every team has a dedicated workspace while still benefiting from a unified collaboration environment.
+
+- Team 01
+- Team 02
+- Team 03
+- Team 04
+- Team 05
 
 ## Repository structure
 
@@ -16,6 +28,7 @@ This repository is a collaborative workspace for the ACNEI-IBL Neural Modelling 
 acnei-ibl-neural-modelling-workshop/
 ├── README.md
 ├── CONTRIBUTING.md
+├── LICENSE
 ├── docs/
 │   └── workshop-overview.md
 ├── teams/
@@ -30,12 +43,12 @@ acnei-ibl-neural-modelling-workshop/
 │   │   └── README.md
 │   └── team-05/
 │       └── README.md
-└── LICENSE
+└── .gitignore
 ```
 
 ## Team workflow
 
-Each team should work inside their own folder:
+Each team should work in its own folder:
 
 - `teams/team-01/`
 - `teams/team-02/`
@@ -43,7 +56,7 @@ Each team should work inside their own folder:
 - `teams/team-04/`
 - `teams/team-05/`
 
-Recommended project layout inside each team folder:
+Each team folder can contain a standard structure like:
 
 ```text
 teams/team-01/
@@ -53,60 +66,71 @@ teams/team-01/
 ├── scripts/
 ├── results/
 ├── reports/
-└── notes/
+├── notes/
+└── figures/
 ```
 
-## How to upload work
+## Recommended project lifecycle
+
+1. Define the project objective and research question.
+2. Prepare or clean the dataset.
+3. Build and test the modelling approach.
+4. Run evaluations and compare model performance.
+5. Save outputs in `results/` or `reports/`.
+6. Write a summary of findings and next steps.
+7. Open a pull request for review and feedback.
+
+## Accepted file types
+
+Teams may upload many kinds of project material, including:
+
+- Jupyter notebooks (`.ipynb`)
+- Python scripts (`.py`)
+- R scripts (`.R`)
+- SQL scripts (`.sql`)
+- CSV and JSON data files
+- figures and plots
+- model outputs
+- documentation files (`.md`)
+- presentation slides
+
+## Collaboration rules
+
+- Keep each team’s work in its own folder.
+- Use clear and descriptive filenames.
+- Update the `README.md` inside each team folder as the project evolves.
+- Use GitHub branches for isolated work.
+- Submit pull requests for review before merging significant changes.
+- Avoid overwriting another team’s files.
+- Store final outputs in `results/`, `reports/`, or `figures/`.
+
+## Contribution workflow
+
+To contribute to the workshop repository:
 
 1. Clone the repository.
-2. Create a branch for your team or for your project.
-3. Add your files inside the correct `teams/team-XX/` folder.
-4. Commit your changes with a clear message.
-5. Push to GitHub.
-6. Open a pull request for review.
+2. Create a branch for your work.
+3. Add or modify files inside your assigned team folder.
+4. Commit with a clear and descriptive message.
+5. Push the branch to GitHub.
+6. Open a pull request and request review.
 
-## Suggested file types
+See `CONTRIBUTING.md` for more details.
 
-Teams can upload:
+## Documentation
 
-- Python notebooks (`.ipynb`)
-- Scripts (`.py`, `.R`, `.sql`)
-- Model outputs and figures
-- CSV or JSON datasets
-- Markdown reports
-- Documentation notes
-- Results summaries
+Additional workshop documentation is stored in the `docs/` folder.
 
-## Collaboration guidelines
+- `docs/workshop-overview.md` — overview of the workshop structure, goals, and collaboration flow
 
-- Keep each team's files separate.
-- Use descriptive names for scripts and outputs.
-- Add a short README in each team folder explaining the project.
-- Use pull requests to share work and review changes.
-- Write commit messages that explain what was updated.
-- Do not overwrite another team’s files.
+## Goals for the workshop
 
-## Recommended project process
+This repository is intended to help teams:
 
-- Define the research question
-- Prepare and clean data
-- Build and test the model
-- Evaluate performance
-- Save results and visualisations
-- Write a short final summary
-
-## Getting started
-
-Use the `teams/README.md` file as the main collaboration guide for all five teams.
-
-If you want a cleaner project structure for the workshop, you can later add:
-
-- `datasets/`
-- `notebooks/`
-- `templates/`
-- `assignments/`
-- `slides/`
-- `meeting-notes/`
+- build and compare neural modelling approaches
+- collaborate in a reproducible environment
+- document and share results clearly
+- produce workshop outputs that are easy to review and discuss
 
 ## License
 
@@ -114,4 +138,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This repository is intended to provide a simple, scalable foundation for collaborative workshop work across multiple teams.
+This repository provides a shared, scalable foundation for collaborative modelling work across five project teams in the ACNEI-IBL workshop.
