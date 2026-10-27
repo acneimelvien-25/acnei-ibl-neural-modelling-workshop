@@ -1,0 +1,27 @@
+# Team 02
+
+This is the workspace for Team 02.
+
+## Purpose
+
+Add your project description, research question, modelling approach, and key results here.
+
+## Suggested structure
+
+```text
+teams/team-02/
+├── README.md
+├── data/
+├── notebooks/
+├── scripts/
+├── results/
+├── reports/
+└── notes/
+```
+
+## Instructions
+
+- Upload notebooks and scripts here
+- Store documentation in `reports/`
+- Keep result files in `results/`
+- Update this README as the project develops
