@@ -1,6 +1,5 @@
 # Contributing
 
-Thank you for contributing to the ACNEI-IBL Neural Modelling Workshop repository.
 
 ## Contribution workflow
 
